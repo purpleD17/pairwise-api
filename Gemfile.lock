@@ -51,7 +51,6 @@ GEM
     factory_girl (1.2.3)
     fakeweb (1.2.5)
     fastercsv (1.5.1)
-    flt (1.5.4)
     formtastic (0.2.5)
     gherkin (2.5.4)
       json (>= 1.4.6)
@@ -72,8 +71,7 @@ GEM
     mini_portile2 (2.6.1)
     mock_redis (0.4.1)
     mysql2 (0.4.10)
-    nio (0.2.5)
-      flt (>= 1.0.0)
+    nio4r (2.5.8)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
@@ -142,7 +140,7 @@ DEPENDENCIES
   mime-types (= 1.16)
   mock_redis (= 0.4.1)
   mysql2 (= 0.4.10)
-  nio
+  nio4r
   nokogiri (= 1.12.5)
   paperclip (= 2.3.1)
   rails (~> 2.3.18)!

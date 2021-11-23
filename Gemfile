@@ -39,7 +39,7 @@ gem "rubaidh-google_analytics", "1.1.4", :require => "rubaidh/google_analytics"
 gem 'mysql2', '0.4.10'
 gem 'activerecord-mysql2-adapter'
 gem 'nokogiri', '1.12.5'
-gem 'nio'
+gem 'nio4r'
 
 group :cucumber do
   gem 'cucumber', '1.1.0'
