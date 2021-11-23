@@ -136,6 +136,7 @@ DEPENDENCIES
   mime-types (= 1.16)
   mock_redis (= 0.4.1)
   mysql2 (= 0.4.10)
+  nokogiri (= 1.12.5)
   paperclip (= 2.3.1)
   rails (~> 2.3.18)!
   railslts-version!
