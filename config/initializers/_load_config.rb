@@ -1,1 +1,2 @@
-REDIS_CONFIG = YAML.load_file("#{Rails.root}/config/redis.yml")
+REDIS_CONFIG = YAML.load(ERB.new(File.new("#{Rails.root}/config/redis.yml").read).result)
+

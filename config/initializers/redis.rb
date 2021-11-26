@@ -1,2 +1,2 @@
 require 'redis'
-$redis = Redis.new(:host => REDIS_CONFIG['hostname'])
+$redis = Redis.new(:host => REDIS_CONFIG['hostname']) || "localhost"
