@@ -14,6 +14,6 @@ Rails::Initializer.run do |config|
   config.action_mailer.delivery_method = :smtp
   #config.action_mailer.delivery_method = :sendmail
   #
-  config.rails_lts_options = { :default => :hardened }
+  config.rails_lts_options = { :default => :compatible }
 end
 
